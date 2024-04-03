@@ -1,3 +1,5 @@
+[Image](lab1.jpg)
+ 
  1. Command with no arguments
 
 * cd
