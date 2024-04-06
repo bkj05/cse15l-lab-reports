@@ -1,3 +1,18 @@
+## Lab Report 1: Remote Access and FileSystem (Week 1)
+
+In this lab report, I will share my experience with basic filesystem commands: `cd`, `ls`, and `cat`. Each command will be demonstrated with three examples:
+
+1. Using the command with no arguments.
+2. Using the command with a path to a directory as an argument.
+3. Using the command with a path to a file as an argument.
+
+## `cd` Command
+
+### Example 1: No Arguments
+
+```bash
+cd
+
  
  1. Command with no arguments
 
