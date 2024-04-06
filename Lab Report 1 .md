@@ -115,5 +115,6 @@ cat example.txt
 Explanation: Running `cat` with a file name as an argument reads the contents of the specified file (`example.txt`). The output displays the contents of the file.
 
 
-![Screenshot](path/to/Screenshot.png)
+![Screenshot](Screenshot.png)
+
 
