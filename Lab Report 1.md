@@ -115,6 +115,7 @@ cat transcript.txt
 Explanation: Running `cat` with a file name as an argument reads the contents of the specified file (`transcript.txt`). The output displays the contents of the file.
 
 
-![Screenshot](Screenshot.png)
+![Screenshot](Screenshot2.png)
+![Screenshot](Screenshot1.png)
 
 
