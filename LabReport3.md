@@ -25,7 +25,7 @@ public class BuggyProgramTest {
 }
 ```
 
-** Non-Failure-Inducing Input**:
+**Non-Failure-Inducing Input**:
 
 ```java
 import static org.junit.jupiter.api.Assertions.*;
@@ -43,4 +43,26 @@ public class BuggyProgramTest {
     }
 }
 ```
-### Sym
+
+**Symptom:**
+
+
+**Buggy Code (Before Fix):**
+```java
+public class BuggyProgram {
+    public static int getElementAtIndex(int[] array, int index) {
+        return array[index];
+    }
+}
+```
+
+**Fixed Code (After Fix):**
+public class BuggyProgram {
+    public static int getElementAtIndex(int[] array, int index) {
+        if (index < 0 || index >= array.length) {
+            throw new ArrayIndexOutOfBoundsException("Index " + index + " is out of bounds");
+        }
+        return array[index];
+    }
+}
+```
