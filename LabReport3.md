@@ -67,4 +67,4 @@ public class BuggyProgram {
     }
 }
 ```
-## Part 2 - Part 2 - Researching Commands
+##  Part 2 - Researching Commands
