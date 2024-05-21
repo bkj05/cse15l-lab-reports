@@ -67,5 +67,4 @@ public class BuggyProgram {
     }
 }
 ```
-**Explanation:**
-The fix addresses the issue by adding a boundary check for the index. If the index is less than 0 or greater than or equal to the length of the array, an ArrayIndexOutOfBoundsException is thrown with a descriptive message. This prevents the program from attempting to access an invalid array index and causing a runtime exception.
+## Part 2 - Part 2 - Researching Commands
