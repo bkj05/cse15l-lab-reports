@@ -23,3 +23,24 @@ public class BuggyProgramTest {
         });
     }
 }
+```
+
+** Non-Failure-Inducing Input**:
+
+```java
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+public class BuggyProgramTest {
+
+    @Test
+    public void testNonFailureInducingInput() {
+        int[] input = {1, 2, 3};
+        int index = 2; // Valid index
+        assertDoesNotThrow(() -> {
+            int result = BuggyProgram.getElementAtIndex(input, index);
+        });
+    }
+}
+```
+### Sym
