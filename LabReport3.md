@@ -57,6 +57,7 @@ public class BuggyProgram {
 ```
 
 **Fixed Code (After Fix):**
+```java
 public class BuggyProgram {
     public static int getElementAtIndex(int[] array, int index) {
         if (index < 0 || index >= array.length) {
