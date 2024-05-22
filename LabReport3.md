@@ -93,7 +93,7 @@ grep -i "warning" ./technical/documents/report.txt
 
 Output: This command searches for the term “warning” in report.txt, matching “Warning”, “WARNING”, and other case variations.
 
-Source: [GNU grep Manual]
+Source: GNU grep Manual
 
 ## Option 2: -r (Recursive)
 
@@ -117,7 +117,7 @@ grep -r "fixme" ./technical/code/
 
 Output: This command searches for the term “fixme” in all files within the code directory and its subdirectories.
 
-Source: [GNU grep Manual]
+Source: GNU grep Manual
 
 ## Option 3: -v (Invert Match)
 
@@ -140,7 +140,7 @@ grep -v "INFO" ./technical/logs.txt
 
 Output: This command shows all lines in logs.txt that do not contain the term “INFO”.
 
-Source: [GNU grep Manual] (GNU grep Manual)
+Source: GNU grep Manual
 
 ## Option 4: -l (Files with Matches)
 
@@ -164,6 +164,6 @@ grep -l "import" ./technical/code/*
 
 Output: This command lists all files in the code directory that contain the term “import”.
 
-Source: [GNU grep Manual]
+Source: GNU grep Manual
 
 These examples demonstrate the versatility of the grep command in various scenarios, making it a powerful tool for searching through text in files and directories.
