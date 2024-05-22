@@ -140,7 +140,7 @@ grep -v "INFO" ./technical/logs.txt
 
 Output: This command shows all lines in logs.txt that do not contain the term “INFO”.
 
-Source: [GNU grep Manual]
+Source: [GNU grep Manual] (GNU grep Manual)
 
 ## Option 4: -l (Files with Matches)
 
