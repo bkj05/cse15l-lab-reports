@@ -74,7 +74,7 @@ public class BuggyProgram {
 
 Description: The -i option makes grep case-insensitive, allowing it to match patterns regardless of case.
 
-## Example 1:
+**Example 1:**
 
 ``` java
 
@@ -84,7 +84,7 @@ grep -i "error" ./technical/logs.txt
 
 Output: This command searches for the term “error” in logs.txt, matching “Error”, “ERROR”, and other case variations.
 
-## Example 2:
+**Example 2:**
 
 ``` java
 grep -i "warning" ./technical/documents/report.txt
@@ -99,7 +99,7 @@ Source: GNU grep Manual
 
 Description: The -r option allows grep to search recursively through directories.
 
-## Example 1:
+**Example 1:**
 
 ``` java
 
@@ -108,7 +108,7 @@ grep -r "TODO" ./technical/
 ``` 
 Output: This command searches for the term “TODO” in all files within the technical directory and its subdirectories.
 
-## Example 2:
+**Example 2:**
 
 ``` java
 
