@@ -61,7 +61,7 @@ Sure, I ran the command you suggested. Here’s the output:
 
 ## Screenshot 2: Terminal Output After Running `ls` Command
 
-![Screenshot](Screenshot1.png)
+![Screenshot](Screenshot2.png)
 
 So it looks like the files are definitely there. What could be the issue?
 
@@ -72,7 +72,7 @@ Thanks for the output. It looks like the files are present in the directory. One
 ## Follow-up Post from Student
 Here’s the content of my run_search.sh script:
 
-![Screenshot](Screenshot1.png)
+![Screenshot](run_search.png)
 
 ## Response from TA
 
@@ -116,7 +116,7 @@ I added the debug print and ran the script again. Here’s the output:
 
 ## Screenshot 3: Terminal Output After Adding Debug Print
 
-![Screenshot](Screenshot1.png)
+![Screenshot](Screenshot3.png)
 
 Looks like the directory isn’t being recognized correctly. What should I do next?
 
@@ -126,7 +126,7 @@ Great, the debug print helped us identify the issue. It looks like there might b
 
 Additionally, let's check for any hidden characters in your script using the cat -A command:
 
-![Screenshot](Screenshot1.png)
+![Screenshot](CatA.png)
 
 ## Follow-up Post from Student
 
@@ -134,7 +134,7 @@ I ran the cat -A command, and here's the output:
 
 ## Screenshot 4: Terminal Output After Running cat -A Command
 
-![Screenshot](Screenshot1.png)
+![Screenshot](Screenshot4.png)
 
 It looks like there's a ^M character at the end of the line. Could that be the problem?
 
@@ -142,7 +142,7 @@ It looks like there's a ^M character at the end of the line. Could that be the p
 
 Yes, the ^M character is a carriage return that is often found in scripts edited on Windows. This can cause issues when running the script on Unix-based systems. To remove it, you can use the `dos2unix` command:
 
-![Screenshot](Screenshot1.png)
+![Screenshot](dos2.png)
 
 After running this command, try executing your script again.
 
@@ -152,14 +152,14 @@ I ran the dos2unix command and then executed the script again. Now it works perf
 
 ## Screenshot 5: Terminal Output After Fixing the Bug
 
-![Screenshot](Screenshot1.png)
+![Screenshot](Screenshot5.png)
 
 Thank you so much for your help!
 
 # Setup Information
 - File & Directory Structure:
   
-    ![Screenshot](Screenshot1.png)
+    ![Screenshot](File&D.png)
 
     - **Contents of Each File Before Fixing the Bug:**
   
@@ -193,10 +193,10 @@ public class SearchFiles {
 }
 ```
 ## run_search.sh:
-![Screenshot](Screenshot1.png)
+![Screenshot](run_search.png)
 
 - ## Full Command Line to Trigger the Bug:
-![Screenshot](Screenshot1.png)
+![Screenshot](bashrun.png)
 
 - ## Description of What to Edit to Fix the Bug:
 
