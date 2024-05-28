@@ -162,7 +162,8 @@ Thank you so much for your help!
 
     **Contents of Each File Before Fixing the Bug:**
         SearchFiles.java:
-        ```java 
+
+```java 
         import java.io.File;
 
 public class SearchFiles {
@@ -190,3 +191,17 @@ public class SearchFiles {
 }
 ```
 ## run_search.sh:
+![Screenshot](Screenshot1.png)
+
+## **Full Command Line to Trigger the Bug:**
+![Screenshot](Screenshot1.png)
+
+## **Description of What to Edit to Fix the Bug:**
+
+    **Use the `dos2unix` command to remove the carriage return characters (^M) from the `run_search.sh` script.**
+
+
+
+    
+## Part 2 – Reflection
+One thing I learned from my lab experience in the second half of this quarter is how to use debugging tools and techniques effectively to diagnose and fix issues in my code. For example, I learned how to add debug prints to track the flow of my program and identify where things might be going wrong. I also discovered the importance of checking for hidden characters or formatting issues, especially when working with scripts across different operating systems. This has made me more confident in my problem-solving skills and my ability to troubleshoot complex issues.
