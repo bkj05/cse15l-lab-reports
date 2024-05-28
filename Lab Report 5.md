@@ -11,7 +11,7 @@ I'm having some trouble with my java program from the files searching system ass
 
 ## Screenshot 1: Terminal Output
 ![Screenshot](Screenshot1.png)
-![Screenshot](ScreenShot1.png)
+![Screenshot](ScreenShot 1.png)
 
 ## Java Code (SearchFiles.java)
 
