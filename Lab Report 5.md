@@ -10,8 +10,6 @@ Hi everyone,
 I'm having some trouble with my java program from the files searching system assignment. When I run my program, it doesn't seem to be finding any files, even though I know the files are there. Here's a screenshot of my terminal output and my code. I suspect the issue might be with how I'm reading the directories, but I'm not sure.
 
 ## Screenshot 1: Terminal Output
-![Screenshot](Screenshot1.png)
-![Screenshot](ScreenShot1.png)
 ![Screenshot](ScreenShot1.png)
 
 ## Java Code (SearchFiles.java)
@@ -52,7 +50,7 @@ Hi John,
 
 Thanks for sharing the details. It looks like your code should be listing files in the specified directory, but it's not finding any files. Could you try running the following command and share the output with us?
 
-![Screenshot](Screenshot1.png)
+![Screenshot](ls.png)
 
 This will help us verify if there are files in the directory and if there might be any permission issues.
 
