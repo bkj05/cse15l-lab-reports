@@ -200,7 +200,7 @@ public class SearchFiles {
 
 - ## Description of What to Edit to Fix the Bug:
 
-          - Use the `dos2unix` command to remove the carriage return characters (^M) from the `run_search.sh` script.**
+- Use the `dos2unix` command to remove the carriage return characters (^M) from the `run_search.sh` script.**
 
 
 
