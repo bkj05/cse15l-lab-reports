@@ -157,11 +157,11 @@ I ran the dos2unix command and then executed the script again. Now it works perf
 Thank you so much for your help!
 
 # Setup Information
-    **File & Directory Structure:**
+- File & Directory Structure:
     ![Screenshot](Screenshot1.png)
 
-    **Contents of Each File Before Fixing the Bug:**
-        SearchFiles.java:
+    - **Contents of Each File Before Fixing the Bug:**
+      SearchFiles.java:
 
 ```java 
         import java.io.File;
@@ -193,12 +193,12 @@ public class SearchFiles {
 ## run_search.sh:
 ![Screenshot](Screenshot1.png)
 
-## **Full Command Line to Trigger the Bug:**
+## - **Full Command Line to Trigger the Bug:**
 ![Screenshot](Screenshot1.png)
 
-## **Description of What to Edit to Fix the Bug:**
+## -**Description of What to Edit to Fix the Bug:**
 
-    **Use the `dos2unix` command to remove the carriage return characters (^M) from the `run_search.sh` script.**
+    - Use the `dos2unix` command to remove the carriage return characters (^M) from the `run_search.sh` script.**
 
 
 
