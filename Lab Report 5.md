@@ -134,5 +134,59 @@ I ran the cat -A command, and here's the output:
 
 ## Screenshot 4: Terminal Output After Running cat -A Command
 
+![Screenshot](Screenshot1.png)
 
+It looks like there's a ^M character at the end of the line. Could that be the problem?
 
+## Response from TA
+
+Yes, the ^M character is a carriage return that is often found in scripts edited on Windows. This can cause issues when running the script on Unix-based systems. To remove it, you can use the `dos2unix` command:
+
+![Screenshot](Screenshot1.png)
+
+After running this command, try executing your script again.
+
+## Follow-up Post from Student
+
+I ran the dos2unix command and then executed the script again. Now it works perfectly!
+
+## Screenshot 5: Terminal Output After Fixing the Bug
+
+![Screenshot](Screenshot1.png)
+
+Thank you so much for your help!
+
+# Setup Information
+    **File & Directory Structure:**
+    ![Screenshot](Screenshot1.png)
+
+    **Contents of Each File Before Fixing the Bug:**
+        SearchFiles.java:
+    ```java 
+        import java.io.File;
+
+public class SearchFiles {
+    public static void main(String[] args) {
+        if (args.length < 1) {
+            System.out.println("Please provide a directory to search.");
+            return;
+        }
+        
+        File dir = new File(args[0]);
+        if (!dir.exists() || !dir.isDirectory()) {
+            System.out.println("Directory does not exist.");
+            return;
+        }
+        
+        File[] files = dir.listFiles();
+        if (files == null || files.length == 0) {
+            System.out.println("No files found.");
+        } else {
+            for (File file : files) {
+                System.out.println("Found file: " + file.getName());
+            }
+        }
+    }
+}
+```
+## run_search.sh:
